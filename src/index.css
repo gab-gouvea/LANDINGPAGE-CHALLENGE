@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Proza Libre", sans-serif;
+  color: var(--secoundary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --primary: #09090b;
+  --secoundary: #fafafa;
+  --tertiary: #5271ff;
+}
+
+html {
+  background-color: #09090b;
+}
+
+body {
+  max-width: 80%;
+  margin: 0 auto;
+}
