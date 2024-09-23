@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Proza Libre", sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: var(--secoundary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,11 +15,18 @@
   --tertiary: #5271ff;
 }
 
-html {
-  background-color: #09090b;
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "header"
+  "outlet"
+  "footer"
+  ;
 }
 
-body {
-  max-width: 80%;
-  margin: 0 auto;
+.outlet {
+  grid-area: outlet;
 }

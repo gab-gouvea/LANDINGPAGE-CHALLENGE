@@ -1,6 +1,6 @@
 import Logo from "../../assets/logo.svg"
 import { Button } from "../Button"
-import "./styles.css"
+import "./index.css"
 
 export function Header() {
     return (

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./styles.css";
+import "./index.css";
 
 export function Button({ href, cor = "#5271ff", nome, blank = "" }) {
   return (
