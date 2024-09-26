@@ -1,0 +1,27 @@
+
+
+.backgroundComu {
+    padding: 10rem 5rem;
+    width: 100%;
+    background: url('../../assets/Comu.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -70px;
+
+    
+
+    h1 {
+        text-align: center;
+        font-family: "Orbitron", sans-serif;
+        font-size: 44px;
+        color: #5271FF;
+        
+    }
+}
+
+.cardsComu {
+    margin-top: 159px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}

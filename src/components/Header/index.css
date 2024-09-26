@@ -5,11 +5,13 @@ header {
     align-items: center;
     padding: 1.5rem 0rem;
     grid-area: header;
+    margin: 0 auto;
+    max-width: 90%;
 
 }
 
 img {
-    width: 10%;
+    width: 8%;
 }
 
 ul {
@@ -35,15 +37,4 @@ i {
 
 @media (max-width: 1023px) {
 
-    .navlink {
-        text-align: center;
-    }
-
-    .botao {
-        padding: 0.1rem 0.5rem;
-    }
-
-    i {
-        font-size: 1rem;
-    }
 }

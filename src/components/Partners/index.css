@@ -1,0 +1,11 @@
+.partners {
+    height: 71px;
+    background-color: #0F172A;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#epit {
+    width: 5%;
+}
+
