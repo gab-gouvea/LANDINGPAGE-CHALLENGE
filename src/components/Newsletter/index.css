@@ -2,16 +2,32 @@
   background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 3rem 0;
   
 }
 
-.form {
+.text {
   grid-column: span 1 / span 1;
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
+
+  form {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      font-family:"Proza Libre", sans-serif;
+
+
+    input {
+      border: none;
+      outline: none;
+
+    }
+  }
 
   h1 {
     font-size: 2rem;
@@ -32,9 +48,24 @@
 
 #btn {
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 500;
+    background-color: #5271FF;
+    padding: 0.5rem 1rem;
+    font-family: "Orbitron", sans-serif;
+    border-radius: 10px;
+    width: max-content;
+    border: none;
+    cursor: pointer;
+
+
   }
+
+  #btn:hover {
+    background-color: #3498db;
+  }
+
+  
 
 .points-section {
   width: 40%;
@@ -43,31 +74,19 @@
   gap: 1.5rem;
 }
 
-.pilots-wrap {
+.pilotos {
+  grid-column: span 1 / span 1;
   display: flex;
-  gap: 1.5rem;
-  height: 100%;
-  width: 100%;
-  align-items: start;
-  margin-top: 30px;
+  gap: 1rem;
+  align-items: center;
+ 
+  img {
+    height: 85%;
+    width: 40%;
+    
+  }
 }
 
-.pilots-container {
-  width: 100%;
-  height: 22.4rem;
-}
-
-#pilot-container-1 {
-  background: url(../../assets/Card-Piloto-Azul.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-#pilot-container-2 {
-  background: url(../../assets/Card-Piloto.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 
 

@@ -1,15 +1,17 @@
 import { Button } from "../Button";
 import { Header } from "../Header";
 import "./index.css";
+import pilot1 from "../../assets/Card-Piloto-Azul.png"
+import pilot2 from "../../assets/Card-Piloto.png"
 
 export function Newsletter() {
   return (
     <>
       <div className="new">
-        <section className="form">
+        <section className="text">
           <h1>Newsletter</h1>
           <p>
-            você ficará por dentro de tudo o que acontece no emocionante mundo
+            Você ficará por dentro de tudo o que acontece no emocionante mundo
             da Fórmula E, além de acompanhar de perto os resultados do nosso
             Fantasy!
           </p>
@@ -27,22 +29,13 @@ export function Newsletter() {
               <label for="email">Melhor Email:</label>
               <input autocomplete="off" type="email" id="email" name="email" />
             </div>
-            <button id="btn">
-              <Button
-                nome="INSCREVA-SE"
-                cor="#FAFAFA"
-                corTexto="#5271ff"
-                border="none"
-              />
-            </button>
+            <button id="btn">inscreva-se</button>
           </form>
         </section>
-        <div class="points-section">
-          <div class="pilots-wrap">
-            <div class="pilots-container" id="pilot-container-1"></div>
-            <div class="pilots-container" id="pilot-container-2"></div>
+          <div class="pilotos">
+            <img src={pilot1} alt="Piloto 1" />
+            <img src={pilot2} alt="Piloto 2" />
           </div>
-        </div>
       </div>
     </>
   );
