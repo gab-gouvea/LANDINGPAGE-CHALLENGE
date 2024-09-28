@@ -1,0 +1,22 @@
+footer {
+    height: 140px;
+    background-color: #fafafac9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    * {
+        margin-top: 10px;
+    }
+}
+
+.copy {
+    
+    font-family:"Proza Libre", sans-serif;
+    color: #5271ff;
+}
+
+#span-copy {
+    color: #2e334d;
+}

@@ -1,6 +1,7 @@
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { SectionMais } from "../components/SectionMais";
-import "../index.css";
+
 
 export function Mais() {
   return (
@@ -105,6 +106,7 @@ export function Mais() {
           </ul>
         </SectionMais>
       </main>
+      <Footer/>
     </div>
   );
 }
