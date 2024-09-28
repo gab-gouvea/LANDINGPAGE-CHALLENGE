@@ -10,7 +10,7 @@ export function Header() {
             <ul>
               <li><Button href="/" cor="transparent" nome="Home"/></li>
               <li><Button href="/mais" cor="transparent" nome="Saber mais"/></li>
-              <li><Button nome="Login" href="https://mahindra-challenge-2024-v2.vercel.app"/></li>
+              <li><Button nome="Login" href="https://mahindra-challenge-2024.vercel.app"/></li>
             </ul>
           </nav>
         </header>
