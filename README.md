@@ -16,7 +16,7 @@ Welcome to the Formula E Interactive Website Project! This project aims to creat
 - **Interactive Dashboards:** Interactive dashboards are included for dynamically visualizing data and information in an engaging manner.
 
 - **Access to Past Races:** Past race broadcasts are available for users to re-watch at their convenience.
-- 
+
 ## Colaboradores do Projeto
 <div style="display: flex; justify-content: space-between; align-items: center;">
 <a href="https://github.com/miguelkapicius" target="_blank" style="text-align: center; margin-right: 10px;">
