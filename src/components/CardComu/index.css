@@ -1,7 +1,7 @@
 .card-comu {
-    padding: 40px;
-    width: 333px;
-    height: 322px;
+    padding: 2.5rem;
+    width: 20.813rem;
+    height: 20.125rem;
     border: 1px solid #5271FF;
     background-color:#09090bd5;
     display: flex;
@@ -9,7 +9,7 @@
     align-items: center;
     
     h2 {
-        margin-bottom: 21px;
+        margin-bottom: 1.313rem;
         font-family: "Orbitron", sans-serif;
         color: #5271FF;
         text-transform: uppercase;
@@ -18,5 +18,10 @@
     p {
         font-family:"Proza Libre", sans-serif;
         font-style: italic;
+    }
+}
+@media (max-width: 768px) {
+    .card-comu {
+        width: 100%;
     }
 }

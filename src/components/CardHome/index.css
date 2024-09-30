@@ -1,19 +1,20 @@
 .card-home {
     display: flex;
     flex-direction: column;
-    width: 216px;
-    height: 200px;
+    width: 100%;
+    max-width: 13.5rem;
+    height: 12.5rem;
     background-color: #09090bd5;
-    padding: 13px;
+    padding: 1rem;
     border: 1px solid #374151;
 
     span {
-        font-size: 14px;
+        font-size: 0.8rem;
         font-family:"Proza Libre", sans-serif;
      }
 
     h2 {
-        font-size: 16px;
+        font-size: 1rem;
         text-transform: uppercase;
         font-family: "Orbitron", sans-serif;
     }

@@ -7,7 +7,7 @@ export function Header() {
         <header>
           <img src={Logo} alt="Logo E-pit" />
           <nav>
-            <ul>
+            <ul className="ul-header">
               <li><Button href="/" cor="transparent" nome="Home"/></li>
               <li><Button href="/mais" cor="transparent" nome="Saber mais"/></li>
               <li><Button nome="Login" href="https://mahindra-challenge-2024.vercel.app"/></li>

@@ -8,16 +8,15 @@ header {
     margin: 0 auto;
     max-width: 90%;
 
+
 }
 
 img {
     width: 8%;
 }
 
-ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
+ul.ul-header {
+    flex: 1 1 0%;
 }
 
 .navlink {
@@ -37,4 +36,16 @@ i {
 
 @media (max-width: 1023px) {
 
+}
+
+@media (max-width: 500px) {
+
+    header {
+        max-width: 95%;
+
+    }
+
+    img {
+        display: none;
+    }
 }

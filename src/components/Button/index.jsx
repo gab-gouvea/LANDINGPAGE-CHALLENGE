@@ -7,7 +7,7 @@ export function Button({
   corTexto = "#FAFAFA",
   nome,
   blank = "",
-  border = "10px",
+  border = "0.625rem",
 }) {
   return (
     <NavLink

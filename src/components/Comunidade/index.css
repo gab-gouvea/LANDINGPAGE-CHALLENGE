@@ -1,27 +1,39 @@
 
 
 .backgroundComu {
-    padding: 10rem 5rem;
+    padding: 10rem 5%;
     width: 100%;
     background: url('../../assets/Comu.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -70px;
+    margin-top: -4.375rem;
 
     
 
     h1 {
         text-align: center;
         font-family: "Orbitron", sans-serif;
-        font-size: 44px;
+        font-size: 3rem;
         color: #5271FF;
         
     }
 }
 
 .cardsComu {
-    margin-top: 159px;
+    margin-top: 9.938rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    gap: 6.25rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .backgroundComu {
+        margin-top: 0;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
 }
